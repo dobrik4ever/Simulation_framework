@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 
 class Experiment1(BaseExperiment):
     def __init__(self, core) -> None:
-        super().__init__(core)
+        super().__init__(core = core)
 
     def run(self):
         self.result = 10
